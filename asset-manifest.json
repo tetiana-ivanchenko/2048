@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tanyamoore/2048.git/static/css/main.5f361e03.chunk.css",
+    "main.js": "/tanyamoore/2048.git/static/js/main.7ec6a7ce.chunk.js",
+    "main.js.map": "/tanyamoore/2048.git/static/js/main.7ec6a7ce.chunk.js.map",
+    "runtime-main.js": "/tanyamoore/2048.git/static/js/runtime-main.af4d0d4f.js",
+    "runtime-main.js.map": "/tanyamoore/2048.git/static/js/runtime-main.af4d0d4f.js.map",
+    "static/js/2.63b6ceeb.chunk.js": "/tanyamoore/2048.git/static/js/2.63b6ceeb.chunk.js",
+    "static/js/2.63b6ceeb.chunk.js.map": "/tanyamoore/2048.git/static/js/2.63b6ceeb.chunk.js.map",
+    "index.html": "/tanyamoore/2048.git/index.html",
+    "precache-manifest.b79c3f8c4baf409dfa135ceeb9122cab.js": "/tanyamoore/2048.git/precache-manifest.b79c3f8c4baf409dfa135ceeb9122cab.js",
+    "service-worker.js": "/tanyamoore/2048.git/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/tanyamoore/2048.git/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.63b6ceeb.chunk.js.LICENSE.txt": "/tanyamoore/2048.git/static/js/2.63b6ceeb.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/tanyamoore/2048.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af4d0d4f.js",
+    "static/js/2.63b6ceeb.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.7ec6a7ce.chunk.js"
+  ]
+}
