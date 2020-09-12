@@ -1,0 +1,156 @@
+@mixin cell {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  outline: none;
+}
+
+
+.game-container {
+  margin: 40px auto;
+  position: relative;
+  padding: 15px;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -ms-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  background: #bbada0;
+  border-radius: 6px;
+  width: 475px;
+  height: 475px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid-row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid-container {
+  width: 445px;
+  height: 445px;
+  position: absolute;
+  z-index: 1;
+  grid-gap: 15px;
+}
+
+.grid-row {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-column-gap: 15px;
+}
+
+.grid-cell {
+  @include cell;
+  background: rgba(238, 228, 218, 0.35);
+}
+
+.two {
+  @include cell;
+  background-color: #eee4da;
+  color: #776e65;
+}
+
+.four {
+  @include cell;
+  background-color: #ede0c8;
+  color: #776e65;
+}
+
+.eight {
+  @include cell;
+  background-color: #f2b179;
+  color: #776e65;
+}
+
+.sixteen {
+  @include cell;
+  background-color: #f59563;
+  color: #776e65;
+}
+
+.thirty-two {
+  @include cell;
+  background-color: #f67c5f;
+  color: #776e65;
+}
+.sixty-four {
+  @include cell;
+  background-color: #f65e3b;
+  color: #f9f6f2;
+}
+.one-twenty-eight {
+  @include cell;
+  background-color: #edcf72;
+  color: #f9f6f2;
+}
+.two-fifty-six {
+  @include cell;
+  background-color: #EDCC61;
+  color: #f9f6f2;
+}
+.five-twelve {
+  @include cell;
+  background-color: #EDC850;
+  color: #f9f6f2;
+}
+.one-zero-forty-two {
+  @include cell;
+  background-color: #EDC53F;
+  color: #f9f6f2;
+}
+.two-zero-forty-eight {
+  @include cell;
+  background-color: #EDC22E;
+  color: #f9f6f2;
+}
+
+.score-container {
+  position: relative;
+  display: inline-block;
+  background: #bbada0;
+  padding: 15px 25px;
+  font-size: 25px;
+  height: 25px;
+  line-height: 47px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: white;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.score-container:after {
+  content: "Score";
+}
+
+.score-container:after, .best-container:after {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+  color: #eee4da;
+}
