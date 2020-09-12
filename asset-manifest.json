@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/tanyamoore/2048.git/static/css/main.5f361e03.chunk.css",
-    "main.js": "/tanyamoore/2048.git/static/js/main.7ec6a7ce.chunk.js",
-    "main.js.map": "/tanyamoore/2048.git/static/js/main.7ec6a7ce.chunk.js.map",
-    "runtime-main.js": "/tanyamoore/2048.git/static/js/runtime-main.af4d0d4f.js",
-    "runtime-main.js.map": "/tanyamoore/2048.git/static/js/runtime-main.af4d0d4f.js.map",
-    "static/js/2.63b6ceeb.chunk.js": "/tanyamoore/2048.git/static/js/2.63b6ceeb.chunk.js",
-    "static/js/2.63b6ceeb.chunk.js.map": "/tanyamoore/2048.git/static/js/2.63b6ceeb.chunk.js.map",
-    "index.html": "/tanyamoore/2048.git/index.html",
-    "precache-manifest.b79c3f8c4baf409dfa135ceeb9122cab.js": "/tanyamoore/2048.git/precache-manifest.b79c3f8c4baf409dfa135ceeb9122cab.js",
-    "service-worker.js": "/tanyamoore/2048.git/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/tanyamoore/2048.git/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.63b6ceeb.chunk.js.LICENSE.txt": "/tanyamoore/2048.git/static/js/2.63b6ceeb.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/tanyamoore/2048.git/static/media/logo.5d5d9eef.svg"
+    "main.css": "/2048/static/css/main.6fae762c.chunk.css",
+    "main.js": "/2048/static/js/main.f7cd43f5.chunk.js",
+    "main.js.map": "/2048/static/js/main.f7cd43f5.chunk.js.map",
+    "runtime-main.js": "/2048/static/js/runtime-main.557b35d6.js",
+    "runtime-main.js.map": "/2048/static/js/runtime-main.557b35d6.js.map",
+    "static/js/2.24cbe5e2.chunk.js": "/2048/static/js/2.24cbe5e2.chunk.js",
+    "static/js/2.24cbe5e2.chunk.js.map": "/2048/static/js/2.24cbe5e2.chunk.js.map",
+    "index.html": "/2048/index.html",
+    "precache-manifest.17289c1a3f6fbfcee744ba8e57e69687.js": "/2048/precache-manifest.17289c1a3f6fbfcee744ba8e57e69687.js",
+    "service-worker.js": "/2048/service-worker.js",
+    "static/css/main.6fae762c.chunk.css.map": "/2048/static/css/main.6fae762c.chunk.css.map",
+    "static/js/2.24cbe5e2.chunk.js.LICENSE.txt": "/2048/static/js/2.24cbe5e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.af4d0d4f.js",
-    "static/js/2.63b6ceeb.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.7ec6a7ce.chunk.js"
+    "static/js/runtime-main.557b35d6.js",
+    "static/js/2.24cbe5e2.chunk.js",
+    "static/css/main.6fae762c.chunk.css",
+    "static/js/main.f7cd43f5.chunk.js"
   ]
 }
